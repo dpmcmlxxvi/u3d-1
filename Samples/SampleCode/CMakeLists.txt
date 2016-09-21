@@ -30,7 +30,7 @@ SET(VTK_MODULES_USED vtkIOExport)
 
 # Create vtkU3DExporter shared library
 SET(LIBS ${VTK_LIBRARIES} ${U3D_LIB})
-SET(EXPORTER_SRC vtkU3DExporter.cxx vtkU3DExporter.h)
+SET(EXPORTER_SRC vtkU3DExporter.cpp vtkU3DExporter.h)
 ADD_LIBRARY(${PROJECT_NAME} SHARED ${EXPORTER_SRC})
 TARGET_LINK_LIBRARIES(${PROJECT_NAME}
     ${LIBS})
@@ -50,7 +50,7 @@ INSTALL(DIRECTORY .
 )
 MESSAGE(STATUS "Added library: " "${PROJECT_NAME}")
 
-ADD_EXECUTABLE(vtkU3DExporterTest vtkU3DExporterTest.cxx vtkU3DExporter.cxx vtkU3DExporter.h )
+ADD_EXECUTABLE(vtkU3DExporterTest vtkU3DExporterTest.cpp vtkU3DExporter.cpp vtkU3DExporter.h )
 TARGET_LINK_LIBRARIES(vtkU3DExporterTest ${LIBS})
 INSTALL(TARGETS vtkU3DExporterTest
     RUNTIME DESTINATION ${BIN_DESTINATION}

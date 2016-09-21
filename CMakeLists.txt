@@ -1864,9 +1864,9 @@ INSTALL( FILES
 	Samples/SampleCode/IDTFGen.cpp
 	Samples/SampleCode/Makefile.sample
 	Samples/SampleCode/CMakeLists.txt
-	Samples/SampleCode/vtkU3DExporter.cxx
+        Samples/SampleCode/vtkU3DExporter.cpp
 	Samples/SampleCode/vtkU3DExporter.h
-	Samples/SampleCode/vtkU3DExporterTest.cxx
+		Samples/SampleCode/vtkU3DExporterTest.cpp
 	DESTINATION ${SAMPLE_DESTINATION}/SampleCode
 )
 INSTALL( DIRECTORY Samples/TestScenes

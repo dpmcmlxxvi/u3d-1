@@ -1,0 +1,2476 @@
+Debug Info for test.u3d
+Dumped at:  Fri Jun 12 18:04:16 2009
+
+
+*****************
+Node Palette
+*****************
+	*** Entry 0:  Index: 0   Name: ,	NodeType:  Unknown
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+		Modifiers associated with this node (0):
+			
+			----
+
+	-----------------------
+	*** Entry 1:  Index: 1   Name: DefaultView,	NodeType:  View (camera)
+		View Parameters:
+			Perspective view, field of view 45.000000 degrees
+			Projection plane distance = 1.207107
+			Offset:  X=0, Y=0; Size:  X=800, Y=600
+			Near Clip:  0.010000;  Far Clip:  1000.010010
+			Clear State:  Back (color) buffer cleared=TRUE, Depth buffer cleared=TRUE, Stencil buffer cleared=TRUE
+			Buffer Color = X: 0.000000, Y: 0.000000, Z: 0.000000
+			Buffer Depth = 1.000000, Stencil Value = 0
+			Stencils disabled
+			Fog disabled
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    7.000000, 13:    2.000000, 14:   20.000000, 15:    1.000000)
+		Modifiers associated with this node (0):
+			
+			----
+
+	-----------------------
+	*** Entry 2:  Index: 2   Name: AmbientLight,	NodeType:  Light
+		-- Ambient
+			R: 1.000000, G: 1.000000, B: 1.000000, Alpha ignored
+			Attenuation:  Const = 1.000000, Linear = 0.000000, Quadradic = 0.000000
+			Attributes: Enabled
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+		Modifiers associated with this node (0):
+			
+			----
+
+	-----------------------
+	*** Entry 3:  Index: 3   Name: Light1,	NodeType:  Light
+		-- Spot light
+			R: 1.000000, G: 1.000000, B: 1.000000, Alpha ignored
+			Attenuation:  Const = 1.000000, Linear = 1.000000, Quadradic = 1.000000
+			Spot Angle:  170.000000
+			Attributes: Enabled
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    7.000000, 13:    2.000000, 14:   20.000000, 15:    1.000000)
+		Modifiers associated with this node (0):
+			
+			----
+
+	-----------------------
+	*** Entry 4:  Index: 4   Name: Light2,	NodeType:  Light
+		-- Directional light
+			R: 1.000000, G: 1.000000, B: 1.000000, Alpha ignored
+			Attenuation:  Const = 1.000000, Linear = 1.000000, Quadradic = 1.000000
+			Attributes: Enabled
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:   -1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    0.999688,  6:    0.024992,  7:    0.000000)
+			( 8:    0.000000,  9:    0.024992, 10:   -0.999688, 11:    0.000000)
+			(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+		Modifiers associated with this node (0):
+			
+			----
+
+	-----------------------
+	*** Entry 5:  Index: 5   Name: Mesh4,	NodeType:  Model,   Generator PaletteID:  1
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.866025
+		Mesh Resolution:  Current=8, Max=8
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  244, Max: 244, Current: 8
+				Faces - Allocated:  12, Max: 12, Current: 12
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 1
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 6:  Index: 6   Name: Mesh5,	NodeType:  Model,   Generator PaletteID:  2
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    2.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.866025
+		Mesh Resolution:  Current=8, Max=8
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  244, Max: 244, Current: 8
+				Faces - Allocated:  12, Max: 12, Current: 12
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 2
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 7:  Index: 7   Name: Mesh6,	NodeType:  Model,   Generator PaletteID:  3
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    4.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.866025
+		Mesh Resolution:  Current=4, Max=4
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  148, Max: 148, Current: 4
+				Faces - Allocated:  4, Max: 4, Current: 4
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 3
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 8:  Index: 8   Name: Mesh7,	NodeType:  Model,   Generator PaletteID:  4
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    6.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.250000, radius 0.750000
+		Mesh Resolution:  Current=6, Max=6
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  196, Max: 196, Current: 6
+				Faces - Allocated:  8, Max: 8, Current: 8
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 4
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 9:  Index: 9   Name: Mesh8,	NodeType:  Model,   Generator PaletteID:  5
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    8.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.866025
+		Mesh Resolution:  Current=5, Max=5
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  172, Max: 172, Current: 5
+				Faces - Allocated:  6, Max: 6, Current: 6
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 5
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 10:  Index: 10   Name: Mesh9,	NodeType:  Model,   Generator PaletteID:  6
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    0.000000, 14:    2.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+		Mesh Resolution:  Current=4, Max=4
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  124, Max: 124, Current: 4
+				Faces - Allocated:  2, Max: 2, Current: 2
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 6
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 11:  Index: 11   Name: Mesh10,	NodeType:  Model,   Generator PaletteID:  7
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    2.000000, 13:    0.000000, 14:    2.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+		Mesh Resolution:  Current=4, Max=4
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  124, Max: 124, Current: 4
+				Faces - Allocated:  2, Max: 2, Current: 2
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 7
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 12:  Index: 12   Name: Mesh11,	NodeType:  Model,   Generator PaletteID:  8
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    4.000000, 13:    0.000000, 14:    2.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.250000, 0.000000, radius 0.559017
+		Mesh Resolution:  Current=3, Max=3
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  112, Max: 112, Current: 3
+				Faces - Allocated:  1, Max: 1, Current: 1
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 8
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 13:  Index: 13   Name: Mesh12,	NodeType:  Model,   Generator PaletteID:  9
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    6.000000, 13:    0.000000, 14:    2.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+		Mesh Resolution:  Current=4, Max=4
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  124, Max: 124, Current: 4
+				Faces - Allocated:  2, Max: 2, Current: 2
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 9
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 14:  Index: 14   Name: Mesh13,	NodeType:  Model,   Generator PaletteID:  10
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    8.000000, 13:    0.000000, 14:    2.000000, 15:    1.000000)
+		Bounding Sphere at 1.000000, 0.500000, 0.000000, radius 1.118034
+		Mesh Resolution:  Current=5, Max=5
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  136, Max: 136, Current: 5
+				Faces - Allocated:  3, Max: 3, Current: 3
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 10
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 15:  Index: 15   Name: Lines14,	NodeType:  Model,   Generator PaletteID:  11
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    0.000000, 14:    4.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  52, Max: 52, Current: 2
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  1, Max: 1, Current: 1
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 11
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 16:  Index: 16   Name: Lines15,	NodeType:  Model,   Generator PaletteID:  12
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    2.000000, 13:    0.000000, 14:    4.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  54, Max: 54, Current: 4
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  2, Max: 2, Current: 2
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 12
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 17:  Index: 17   Name: Points16,	NodeType:  Model,   Generator PaletteID:  13
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    0.000000, 14:    6.000000, 15:    1.000000)
+		Bounding Sphere at 0.000000, 0.000000, 0.000000, radius 0.000000
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  1, Max: 1, Current: 1
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 13
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 18:  Index: 18   Name: Points17,	NodeType:  Model,   Generator PaletteID:  14
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    2.000000, 13:    0.000000, 14:    6.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  3, Max: 3, Current: 3
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 14
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 19:  Index: 19   Name: Mesh18,	NodeType:  Model,   Generator PaletteID:  15
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:   10.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.750000
+		Mesh Resolution:  Current=10, Max=10
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  292, Max: 292, Current: 10
+				Faces - Allocated:  16, Max: 16, Current: 16
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 15
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 20:  Index: 20   Name: Mesh19,	NodeType:  Model,   Generator PaletteID:  16
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:   12.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.866025
+		Mesh Resolution:  Current=12, Max=12
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  340, Max: 340, Current: 12
+				Faces - Allocated:  20, Max: 20, Current: 20
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 16
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 21:  Index: 21   Name: Mesh20,	NodeType:  Model,   Generator PaletteID:  17
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:   -2.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 6.500000, 0.500000, 3.000000, radius 7.176350
+		Mesh Resolution:  Current=82, Max=82
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  1156, Max: 1156, Current: 73
+				Faces - Allocated:  88, Max: 88, Current: 88
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 17
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 22:  Index: 22   Name: Lines21,	NodeType:  Model,   Generator PaletteID:  18
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:   -2.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 1.500000, 0.500000, 4.000000, radius 1.581139
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  56, Max: 56, Current: 6
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  3, Max: 3, Current: 3
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 18
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 23:  Index: 23   Name: Points22,	NodeType:  Model,   Generator PaletteID:  19
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:   -2.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 1.500000, 0.500000, 6.000000, radius 1.581139
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  4, Max: 4, Current: 4
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 19
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 24:  Index: 24   Name: Mesh23,	NodeType:  Model,   Generator PaletteID:  20
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    8.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 6.500000, 0.500000, 3.000000, radius 7.176350
+		Mesh Resolution:  Current=82, Max=82
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  1156, Max: 1156, Current: 73
+				Faces - Allocated:  88, Max: 88, Current: 88
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 1, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 20
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 25:  Index: 25   Name: Lines24,	NodeType:  Model,   Generator PaletteID:  21
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    8.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 1.500000, 0.500000, 4.000000, radius 1.581139
+		MeshGroup contains 3 submeshes
+			0:  Vertices - Allocated:  52, Max: 52, Current: 2
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  1, Max: 1, Current: 1
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+			1:  Vertices - Allocated:  52, Max: 52, Current: 2
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  1, Max: 1, Current: 1
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+			2:  Vertices - Allocated:  52, Max: 52, Current: 2
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  1, Max: 1, Current: 1
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 3 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (3): 21, 22, 23
+			1:  ShaderIDs (1): 0
+			2:  ShaderIDs (1): 0
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 26:  Index: 26   Name: Points25,	NodeType:  Model,   Generator PaletteID:  22
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    8.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 1.500000, 0.500000, 6.000000, radius 1.581139
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  4, Max: 4, Current: 4
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 24
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 27:  Index: 27   Name: Mesh26,	NodeType:  Model,   Generator PaletteID:  23
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    6.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 6.500000, 0.500000, 3.000000, radius 7.176350
+		Mesh Resolution:  Current=82, Max=82
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  1156, Max: 1156, Current: 73
+				Faces - Allocated:  88, Max: 88, Current: 88
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 1, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=1, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 25
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 28:  Index: 28   Name: Lines27,	NodeType:  Model,   Generator PaletteID:  24
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    6.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 1.500000, 0.500000, 4.000000, radius 1.581139
+		MeshGroup contains 3 submeshes
+			0:  Vertices - Allocated:  52, Max: 52, Current: 2
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  1, Max: 1, Current: 1
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+			1:  Vertices - Allocated:  52, Max: 52, Current: 2
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  1, Max: 1, Current: 1
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+			2:  Vertices - Allocated:  52, Max: 52, Current: 2
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  1, Max: 1, Current: 1
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 3 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (3): 26, 27, 28
+			1:  ShaderIDs (1): 0
+			2:  ShaderIDs (1): 0
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 29:  Index: 29   Name: Points28,	NodeType:  Model,   Generator PaletteID:  25
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    6.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 1.500000, 0.500000, 6.000000, radius 1.581139
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  4, Max: 4, Current: 4
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 29
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 30:  Index: 30   Name: Mesh29,	NodeType:  Model,   Generator PaletteID:  26
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    4.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 6.500000, 0.500000, 3.000000, radius 7.176350
+		Mesh Resolution:  Current=82, Max=82
+		MeshGroup contains 12 submeshes
+			0:  Vertices - Allocated:  124, Max: 124, Current: 4
+				Faces - Allocated:  2, Max: 2, Current: 2
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			1:  Vertices - Allocated:  124, Max: 124, Current: 4
+				Faces - Allocated:  2, Max: 2, Current: 2
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			2:  Vertices - Allocated:  112, Max: 112, Current: 3
+				Faces - Allocated:  1, Max: 1, Current: 1
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			3:  Vertices - Allocated:  124, Max: 124, Current: 4
+				Faces - Allocated:  2, Max: 2, Current: 2
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			4:  Vertices - Allocated:  136, Max: 136, Current: 5
+				Faces - Allocated:  3, Max: 3, Current: 3
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			5:  Vertices - Allocated:  244, Max: 244, Current: 8
+				Faces - Allocated:  12, Max: 12, Current: 12
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			6:  Vertices - Allocated:  244, Max: 244, Current: 8
+				Faces - Allocated:  12, Max: 12, Current: 12
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			7:  Vertices - Allocated:  148, Max: 148, Current: 4
+				Faces - Allocated:  4, Max: 4, Current: 4
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			8:  Vertices - Allocated:  196, Max: 196, Current: 6
+				Faces - Allocated:  8, Max: 8, Current: 8
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			9:  Vertices - Allocated:  172, Max: 172, Current: 5
+				Faces - Allocated:  6, Max: 6, Current: 6
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			10:  Vertices - Allocated:  292, Max: 292, Current: 10
+				Faces - Allocated:  16, Max: 16, Current: 16
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+			11:  Vertices - Allocated:  340, Max: 340, Current: 12
+				Faces - Allocated:  20, Max: 20, Current: 20
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=0, 1=0, 2=0, 3=0, 4=0, 5=0, 6=0, 7=0
+				Tex Coords In Use: 
+		Renderable contains 12 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 30
+			1:  ShaderIDs (1): 31
+			2:  ShaderIDs (1): 32
+			3:  ShaderIDs (1): 33
+			4:  ShaderIDs (1): 34
+			5:  ShaderIDs (1): 35
+			6:  ShaderIDs (1): 36
+			7:  ShaderIDs (1): 37
+			8:  ShaderIDs (1): 38
+			9:  ShaderIDs (1): 39
+			10:  ShaderIDs (1): 40
+			11:  ShaderIDs (1): 41
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 31:  Index: 31   Name: Lines30,	NodeType:  Model,   Generator PaletteID:  27
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    4.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 1.500000, 0.500000, 4.000000, radius 1.581139
+		MeshGroup contains 2 submeshes
+			0:  Vertices - Allocated:  52, Max: 52, Current: 2
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  1, Max: 1, Current: 1
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+			1:  Vertices - Allocated:  54, Max: 54, Current: 4
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  2, Max: 2, Current: 2
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 2 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (2): 42, 43
+			1:  ShaderIDs (1): 0
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+	*** Entry 32:  Index: 32   Name: Points31,	NodeType:  Model,   Generator PaletteID:  28
+		Node priority:  256
+		Number of instances - 1:
+			Current Transform for instance 0:
+			( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+			( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+			( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+			(12:    0.000000, 13:    4.000000, 14:    0.000000, 15:    1.000000)
+		Bounding Sphere at 1.500000, 0.500000, 6.000000, radius 1.581139
+		MeshGroup contains 1 submeshes
+			0:  Vertices - Allocated:  4, Max: 4, Current: 4
+				Faces - Allocated:  0, Max: 0, Current: 0
+				Lines - Allocated:  0, Max: 0, Current: 0
+				Number Texture Coordinate Layers 0, HW TC Layers 8
+				Has Positions 1, Normals 0, DColors 0, SColors 0
+				DiffuseBGR 1, SpecularBGR 1, 32bitIndices 0
+				Bytes Per layer:  0=2, 1=2, 2=2, 3=2, 4=2, 5=2, 6=2, 7=2
+				Tex Coords In Use: 
+		Renderable contains 1 elements
+		Shader Set Mapping for elements:
+			0:  ShaderIDs (1): 44
+		Modifiers associated with this node (1):
+			Shading
+			----
+
+
+	-----------------------
+
+	*****************
+	Hierarchy display
+	*****************
+	   World
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+	      DefaultView
+
+
+*****************
+Light Palette
+*****************
+	*** Entry 0:  Index: 0   Name: ,	-----------------------
+	*** Entry 1:  Index: 1   Name: DefaultAmbientLight,	-----------------------
+	*** Entry 2:  Index: 2   Name: Light1,	-----------------------
+	*** Entry 3:  Index: 3   Name: Light2,	-----------------------
+
+
+*****************
+View Palette
+*****************
+	*** Entry 0:  Index: 0   Name: ,	-----------------------
+	*** Entry 1:  Index: 1   Name: SceneViewResource,	-----------------------
+
+
+*****************
+Generator (Model) Palette
+*****************
+	*** Entry 0:  Index: 0   Name: 
+
+	-------------------------------------------------------
+	*** Entry 1:  Index: 1   Name: Mesh4
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.866025
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 8, Current = 8, Max = 8
+			Mesh Statistics:
+				Num Faces = 12, Num Vertices = 8, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 8
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 2:  Index: 2   Name: Mesh5
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.866025
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 8, Current = 8, Max = 8
+			Mesh Statistics:
+				Num Faces = 12, Num Vertices = 8, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 8
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 3:  Index: 3   Name: Mesh6
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.866025
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 4, Current = 4, Max = 4
+			Mesh Statistics:
+				Num Faces = 4, Num Vertices = 4, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 4
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 4:  Index: 4   Name: Mesh7
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.250000, radius 0.750000
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 6, Current = 6, Max = 6
+			Mesh Statistics:
+				Num Faces = 8, Num Vertices = 6, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 6
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 5:  Index: 5   Name: Mesh8
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.866025
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 5, Current = 5, Max = 5
+			Mesh Statistics:
+				Num Faces = 6, Num Vertices = 5, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 5
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 6:  Index: 6   Name: Mesh9
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 4, Current = 4, Max = 4
+			Mesh Statistics:
+				Num Faces = 2, Num Vertices = 4, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 4
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 7:  Index: 7   Name: Mesh10
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 4, Current = 4, Max = 4
+			Mesh Statistics:
+				Num Faces = 2, Num Vertices = 4, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 4
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 8:  Index: 8   Name: Mesh11
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.250000, 0.000000, radius 0.559017
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 3, Current = 3, Max = 3
+			Mesh Statistics:
+				Num Faces = 1, Num Vertices = 3, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 3
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 9:  Index: 9   Name: Mesh12
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 4, Current = 4, Max = 4
+			Mesh Statistics:
+				Num Faces = 2, Num Vertices = 4, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 4
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 10:  Index: 10   Name: Mesh13
+		Author CLOD Resource
+			Bounding Sphere at 1.000000, 0.500000, 0.000000, radius 1.118034
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 5, Current = 5, Max = 5
+			Mesh Statistics:
+				Num Faces = 3, Num Vertices = 5, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 5
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 11:  Index: 11   Name: Lines14
+		Author LineSet Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			LineSet Statistics:
+				Num Lines = 1, Num Positions = 2, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0
+			Line Data:
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 12:  Index: 12   Name: Lines15
+		Author LineSet Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.000000, radius 0.707107
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			LineSet Statistics:
+				Num Lines = 2, Num Positions = 3, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0
+			Line Data:
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 13:  Index: 13   Name: Points16
+		Unknown model type
+
+	-------------------------------------------------------
+	*** Entry 14:  Index: 14   Name: Points17
+		Unknown model type
+
+	-------------------------------------------------------
+	*** Entry 15:  Index: 15   Name: Mesh18
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.750000
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 10, Current = 10, Max = 10
+			Mesh Statistics:
+				Num Faces = 16, Num Vertices = 10, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 10
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 16:  Index: 16   Name: Mesh19
+		Author CLOD Resource
+			Bounding Sphere at 0.500000, 0.500000, 0.500000, radius 0.866025
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 12, Current = 12, Max = 12
+			Mesh Statistics:
+				Num Faces = 20, Num Vertices = 12, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 12
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 17:  Index: 17   Name: Mesh20
+		Author CLOD Resource
+			Bounding Sphere at 6.500000, 0.500000, 3.000000, radius 7.176350
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 82, Current = 82, Max = 82
+			Mesh Statistics:
+				Num Faces = 88, Num Vertices = 82, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 82
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 18:  Index: 18   Name: Lines21
+		Author LineSet Resource
+			Bounding Sphere at 1.500000, 0.500000, 4.000000, radius 1.581139
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			LineSet Statistics:
+				Num Lines = 3, Num Positions = 5, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0
+			Line Data:
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 19:  Index: 19   Name: Points22
+		Unknown model type
+
+	-------------------------------------------------------
+	*** Entry 20:  Index: 20   Name: Mesh23
+		Author CLOD Resource
+			Bounding Sphere at 6.500000, 0.500000, 3.000000, radius 7.176350
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 82, Current = 82, Max = 82
+			Mesh Statistics:
+				Num Faces = 88, Num Vertices = 82, Num Normals = 0
+				Num Diffuse Colors = 29, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 1
+				Num Allocated Texture Layers = 0, Num Base Vertices = 82
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 1, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 21:  Index: 21   Name: Lines24
+		Author LineSet Resource
+			Bounding Sphere at 1.500000, 0.500000, 4.000000, radius 1.581139
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			LineSet Statistics:
+				Num Lines = 3, Num Positions = 5, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 3
+				Num Allocated Texture Layers = 0
+			Line Data:
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 22:  Index: 22   Name: Points25
+		Unknown model type
+
+	-------------------------------------------------------
+	*** Entry 23:  Index: 23   Name: Mesh26
+		Author CLOD Resource
+			Bounding Sphere at 6.500000, 0.500000, 3.000000, radius 7.176350
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 82, Current = 82, Max = 82
+			Mesh Statistics:
+				Num Faces = 88, Num Vertices = 82, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 29, Num Materials = 1
+				Num Allocated Texture Layers = 1, Num Base Vertices = 82
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 1, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+					Layer 0 has dimensions of 1
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 24:  Index: 24   Name: Lines27
+		Author LineSet Resource
+			Bounding Sphere at 1.500000, 0.500000, 4.000000, radius 1.581139
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			LineSet Statistics:
+				Num Lines = 3, Num Positions = 5, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 3
+				Num Allocated Texture Layers = 0
+			Line Data:
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 25:  Index: 25   Name: Points28
+		Unknown model type
+
+	-------------------------------------------------------
+	*** Entry 26:  Index: 26   Name: Mesh29
+		Author CLOD Resource
+			Bounding Sphere at 6.500000, 0.500000, 3.000000, radius 7.176350
+			CLODLevel = 1.000000, Crease Angle = 2.000000
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			Resolutions:  Min = 82, Current = 82, Max = 82
+			Mesh Statistics:
+				Num Faces = 88, Num Vertices = 82, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 12
+				Num Allocated Texture Layers = 0, Num Base Vertices = 82
+			Submesh Data:
+				0:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				1:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				2:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				3:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				4:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				5:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				6:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				7:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				8:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				9:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				10:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+				11:  Face Updates = 0
+					NumTextureLayers = 0, OriginalMaterialID = 0
+					DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 27:  Index: 27   Name: Lines30
+		Author LineSet Resource
+			Bounding Sphere at 1.500000, 0.500000, 4.000000, radius 1.581139
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+			LineSet Statistics:
+				Num Lines = 3, Num Positions = 5, Num Normals = 0
+				Num Diffuse Colors = 0, Num Specular Colors = 0
+				Num Texture Coordinates = 0, Num Materials = 2
+				Num Allocated Texture Layers = 0
+			Line Data:
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+				NumTextureLayers = 0, OriginalMaterialID = 0
+				DiffuseColors = 0, SpecularColors = 0
+			Generator priority:  256
+			Current Transform:
+				( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+				( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+				( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+				(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+
+
+	-------------------------------------------------------
+	*** Entry 28:  Index: 28   Name: Points31
+		Unknown model type
+
+	-------------------------------------------------------
+
+*****************
+Shader Palette
+*****************
+	*** Entry 0:  Index: 0   Name: 
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material  UseDiffuse
+			Use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  0
+	-----------------------
+	*** Entry 1:  Index: 1   Name: Shader0
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  1
+	-----------------------
+	*** Entry 2:  Index: 2   Name: Shader1
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  2
+	-----------------------
+	*** Entry 3:  Index: 3   Name: Shader2
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  3
+	-----------------------
+	*** Entry 4:  Index: 4   Name: Shader3
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  4
+	-----------------------
+	*** Entry 5:  Index: 5   Name: Shader4
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  5
+	-----------------------
+	*** Entry 6:  Index: 6   Name: Shader5
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  6
+	-----------------------
+	*** Entry 7:  Index: 7   Name: Shader6
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  7
+	-----------------------
+	*** Entry 8:  Index: 8   Name: Shader7
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  8
+	-----------------------
+	*** Entry 9:  Index: 9   Name: Shader8
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  9
+	-----------------------
+	*** Entry 10:  Index: 10   Name: Shader9
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  10
+	-----------------------
+	*** Entry 11:  Index: 11   Name: Shader10
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  11
+	-----------------------
+	*** Entry 12:  Index: 12   Name: Shader11
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  12
+	-----------------------
+	*** Entry 13:  Index: 13   Name: Shader12
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  13
+	-----------------------
+	*** Entry 14:  Index: 14   Name: Shader13
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  14
+	-----------------------
+	*** Entry 15:  Index: 15   Name: Shader14
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  15
+	-----------------------
+	*** Entry 16:  Index: 16   Name: Shader15
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  16
+	-----------------------
+	*** Entry 17:  Index: 17   Name: Shader16
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  17
+	-----------------------
+	*** Entry 18:  Index: 18   Name: Shader17
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  18
+	-----------------------
+	*** Entry 19:  Index: 19   Name: Shader18
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  19
+	-----------------------
+	*** Entry 20:  Index: 20   Name: Shader19
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  20
+	-----------------------
+	*** Entry 21:  Index: 21   Name: Shader20
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  21
+	-----------------------
+	*** Entry 22:  Index: 22   Name: Shader21
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  22
+	-----------------------
+	*** Entry 23:  Index: 23   Name: Shader22
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  23
+	-----------------------
+	*** Entry 24:  Index: 24   Name: Shader23
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  24
+	-----------------------
+	*** Entry 25:  Index: 25   Name: Shader24
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Base  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  25
+			Base ID:  1    Base (Diffuse) Intensity: 1.000000
+				Blend Function:  Replace,  Blend Source:  Alpha
+				Texture Mode:  None , Texture Repeat U = FALSE
+ , Texture Repeat V = FALSE
+ , Texture Repeat W = FALSE
+				Blend Constant: 1.000000
+				Texture Transform
+					( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+					( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+					( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+					(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+				Wrap Transform
+					( 0:    1.000000,  1:    0.000000,  2:    0.000000,  3:    0.000000)
+					( 4:    0.000000,  5:    1.000000,  6:    0.000000,  7:    0.000000)
+					( 8:    0.000000,  9:    0.000000, 10:    1.000000, 11:    0.000000)
+					(12:    0.000000, 13:    0.000000, 14:    0.000000, 15:    1.000000)
+	-----------------------
+	*** Entry 26:  Index: 26   Name: Shader25
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  26
+	-----------------------
+	*** Entry 27:  Index: 27   Name: Shader26
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  27
+	-----------------------
+	*** Entry 28:  Index: 28   Name: Shader27
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  28
+	-----------------------
+	*** Entry 29:  Index: 29   Name: Shader28
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  29
+	-----------------------
+	*** Entry 30:  Index: 30   Name: Shader29
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  30
+	-----------------------
+	*** Entry 31:  Index: 31   Name: Shader30
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  31
+	-----------------------
+	*** Entry 32:  Index: 32   Name: Shader31
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  32
+	-----------------------
+	*** Entry 33:  Index: 33   Name: Shader32
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  33
+	-----------------------
+	*** Entry 34:  Index: 34   Name: Shader33
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  34
+	-----------------------
+	*** Entry 35:  Index: 35   Name: Shader34
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  35
+	-----------------------
+	*** Entry 36:  Index: 36   Name: Shader35
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  36
+	-----------------------
+	*** Entry 37:  Index: 37   Name: Shader36
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  37
+	-----------------------
+	*** Entry 38:  Index: 38   Name: Shader37
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  38
+	-----------------------
+	*** Entry 39:  Index: 39   Name: Shader38
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  39
+	-----------------------
+	*** Entry 40:  Index: 40   Name: Shader39
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  40
+	-----------------------
+	*** Entry 41:  Index: 41   Name: Shader40
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  41
+	-----------------------
+	*** Entry 42:  Index: 42   Name: Shader41
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  42
+	-----------------------
+	*** Entry 43:  Index: 43   Name: Shader42
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  43
+	-----------------------
+	*** Entry 44:  Index: 44   Name: Shader43
+		Shader Properties
+			Shader priority:  256
+			Enabled Channels:  Material
+			Do not use Diffuse, Alpha Test Disabled, Lighting Enabled
+			Material ID:  44
+	-----------------------
+
+*****************
+Material Palette
+*****************
+	*** Entry 0:  Index: 0   Name: 
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.750000 0.750000 0.750000    Diffuse:  0.000000 0.000000 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.000000
+
+	-----------------------
+	*** Entry 1:  Index: 1   Name: Material0
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 0.000000 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 2:  Index: 2   Name: Material1
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 3:  Index: 3   Name: Material2
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.000000 1.000000 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 4:  Index: 4   Name: Material3
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 5:  Index: 5   Name: Material4
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 0.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 6:  Index: 6   Name: Material5
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 7:  Index: 7   Name: Material6
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 0.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 8:  Index: 8   Name: Material7
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.300000 1.000000 0.500000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 9:  Index: 9   Name: Material8
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 0.400000 0.500000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 10:  Index: 10   Name: Material9
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.300000 0.700000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 11:  Index: 11   Name: Material10
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.200000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 12:  Index: 12   Name: Material11
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 13:  Index: 13   Name: Material12
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 14:  Index: 14   Name: Material13
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 15:  Index: 15   Name: Material14
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.200000 0.400000 0.700000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 16:  Index: 16   Name: Material15
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.700000 0.500000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 17:  Index: 17   Name: Material16
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 18:  Index: 18   Name: Material17
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 19:  Index: 19   Name: Material18
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 20:  Index: 20   Name: Material19
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 21:  Index: 21   Name: Material20
+		Material priority:  256
+		Material Resource:
+			Ambient:  1.000000 0.725490 0.000000    Diffuse:  1.000000 0.725490 0.000000
+			Specular:  1.000000 0.725490 0.000000    Emission:  1.000000 0.725490 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.100000
+
+	-----------------------
+	*** Entry 22:  Index: 22   Name: Material21
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.868627 1.000000 0.000000    Diffuse:  0.868627 1.000000 0.000000
+			Specular:  0.868627 1.000000 0.000000    Emission:  0.868627 1.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.100000
+
+	-----------------------
+	*** Entry 23:  Index: 23   Name: Material22
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.749020 1.000000 0.000000    Diffuse:  0.749020 1.000000 0.000000
+			Specular:  0.749020 1.000000 0.000000    Emission:  0.749020 1.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.100000
+
+	-----------------------
+	*** Entry 24:  Index: 24   Name: Material23
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 25:  Index: 25   Name: Material24
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 26:  Index: 26   Name: Material25
+		Material priority:  256
+		Material Resource:
+			Ambient:  1.000000 0.725490 0.000000    Diffuse:  1.000000 0.725490 0.000000
+			Specular:  1.000000 0.725490 0.000000    Emission:  1.000000 0.725490 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.100000
+
+	-----------------------
+	*** Entry 27:  Index: 27   Name: Material26
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.868627 1.000000 0.000000    Diffuse:  0.868627 1.000000 0.000000
+			Specular:  0.868627 1.000000 0.000000    Emission:  0.868627 1.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.100000
+
+	-----------------------
+	*** Entry 28:  Index: 28   Name: Material27
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.749020 1.000000 0.000000    Diffuse:  0.749020 1.000000 0.000000
+			Specular:  0.749020 1.000000 0.000000    Emission:  0.749020 1.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.100000
+
+	-----------------------
+	*** Entry 29:  Index: 29   Name: Material28
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 30:  Index: 30   Name: Material29
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 0.333333 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 31:  Index: 31   Name: Material30
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 0.984314 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 32:  Index: 32   Name: Material31
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.560784 1.000000 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 33:  Index: 33   Name: Material32
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.000000 1.000000 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 34:  Index: 34   Name: Material33
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.000000 1.000000 0.682353
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 35:  Index: 35   Name: Material34
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 0.082353 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 36:  Index: 36   Name: Material35
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 0.819608 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 37:  Index: 37   Name: Material36
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.878431 1.000000 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 38:  Index: 38   Name: Material37
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.137255 1.000000 0.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 39:  Index: 39   Name: Material38
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.000000 1.000000 0.192157
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 40:  Index: 40   Name: Material39
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.000000 1.000000 0.956863
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 41:  Index: 41   Name: Material40
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  0.000000 0.647059 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+	*** Entry 42:  Index: 42   Name: Material41
+		Material priority:  256
+		Material Resource:
+			Ambient:  1.000000 0.737255 0.000000    Diffuse:  1.000000 0.737255 0.000000
+			Specular:  1.000000 0.737255 0.000000    Emission:  1.000000 0.737255 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.100000
+
+	-----------------------
+	*** Entry 43:  Index: 43   Name: Material42
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.862745 1.000000 0.000000    Diffuse:  0.862745 1.000000 0.000000
+			Specular:  0.862745 1.000000 0.000000    Emission:  0.862745 1.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.100000
+
+	-----------------------
+	*** Entry 44:  Index: 44   Name: Material43
+		Material priority:  256
+		Material Resource:
+			Ambient:  0.000000 0.000000 0.000000    Diffuse:  1.000000 1.000000 1.000000
+			Specular:  0.000000 0.000000 0.000000    Emission:  0.000000 0.000000 0.000000
+			Opacity:  1.000000    Transparent    Reflectivity:  0.007812
+
+	-----------------------
+
+*****************
+Texture Palette
+*****************
+	*** Entry 0:  Index: 0   Name: 
+	*** Entry 1:  Index: 1   Name: Texture0
+		Texture priority:  256
+		Width:  256, Height: 1,  Supports Alpha Color, Format:  32-bit RGBA
+		Compression State:  Force Compressed, Keep Compressed = FALSE
+		Render Format:  IFX_RGBA_8888
+		Filter Modes:  Magnification = LINEAR, Minification = LINEAR, MipMap = NEAREST
+		Texture Source = Cast Member, Texture Type = 2D
+		Image Buffer Size = 1, Image CODEC Quality = 100
+		Texture ID = 3, Texture Version = 1
+		Image CODEC CID:  0-0-0- 0 0 0 0 0 0 0 0
+
+***********************
+Simulation Task Palette
+***********************
+	Empty Palette
+
+*****************
+Mixer Palette
+*****************
+    ********************************************************
+    ********************************************************
+	*** Entry 0:  Index: 0   Name: 
+		Maps to no motion
+		Mixer Construct has no submaps.
+
+
+*****************
+Motion Palette
+*****************
+
+    ********************************************************
+    ********************************************************
+	*** Entry 0:  Index: 0   Name: 
+Dumping IFXMotion Object with 0 Tracks.
