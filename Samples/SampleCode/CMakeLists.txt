@@ -50,14 +50,6 @@ INSTALL(DIRECTORY .
 )
 MESSAGE(STATUS "Added library: " "${PROJECT_NAME}")
 
-ADD_EXECUTABLE(vtkU3DExporterTest vtkU3DExporterTest.cpp vtkU3DExporter.cpp vtkU3DExporter.h )
-TARGET_LINK_LIBRARIES(vtkU3DExporterTest ${LIBS})
-INSTALL(TARGETS vtkU3DExporterTest
-    RUNTIME DESTINATION ${BIN_DESTINATION}
-    ARCHIVE DESTINATION ${LIB_DESTINATION}
-    LIBRARY DESTINATION ${LIB_DESTINATION}
-)
-
 if(WRAP_PYTHON)
     # Find Python
     FIND_PACKAGE(PythonLibs REQUIRED)
@@ -73,6 +65,7 @@ if(WRAP_PYTHON)
     
     # Create PythonD library (brings everything together)
     ADD_LIBRARY("${PROJECT_NAME}PythonD" ${PYTHON_SRCS} "${EXPORTER_SRC}")
+    SET_TARGET_PROPERTIES("${PROJECT_NAME}PythonD" PROPERTIES POSITION_INDEPENDENT_CODE ON)
     IF(WIN32)
         TARGET_LINK_LIBRARIES("${PROJECT_NAME}PythonD" 
             winmm)
@@ -89,7 +82,6 @@ if(WRAP_PYTHON)
     
     # Create Python library (exposes to Python through a pyd)
     ADD_LIBRARY("${PROJECT_NAME}Python" MODULE "${PROJECT_NAME}PythonInit.cxx" "${PROJECT_NAME}PythonInitImpl.cxx")
-    SET_TARGET_PROPERTIES("${PROJECT_NAME}Python" PROPERTIES POSITION_INDEPENDENT_CODE ON)
     # collect the used pythonD libs in VTK_PYTHOND_LIBS
     SET(VTK_PYTHOND_LIBS)
     FOREACH(TMP_LIB ${VTK_MODULES_USED})

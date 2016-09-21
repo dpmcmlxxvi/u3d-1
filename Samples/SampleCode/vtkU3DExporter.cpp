@@ -302,7 +302,7 @@ void vtkU3DExporter::WriteData()
   ConverterOptions converterOptions;
   FileOptions fileOptions;
 
-  wchar_t *wU3DFileName = new wchar_t [mbstowcs(NULL, this->FileName, 32000)+1+4];
+  wchar_t *wU3DFileName = new wchar_t[strlen(this->FileName) + 1 + 4];
   mbstowcs(wU3DFileName, this->FileName, 32000);
   wcsncat(wU3DFileName,L".u3d",4);
   fileOptions.outFile    = wU3DFileName;
@@ -531,7 +531,7 @@ void vtkU3DExporter::WriteData()
       }
     }
 
-    {                                                                                                       
+    {
     wchar_t lightName[128];
     swprintf(lightName, 127, L"Light%u", pLightResources->GetResourceCount());
     lightNode.SetName( lightName );
@@ -975,7 +975,7 @@ void vtkU3DExporter::WriteData()
              imageFormat.m_red = IDTF_TRUE;
 
              wchar_t texturePath[512];
-             swprintf(texturePath, 511, L"%s_%ls.tga", this->FileName, textureName);
+             swprintf(texturePath, 511, L"%hs_%Ts.tga", this->FileName, textureName);
              textureResource.AddImageFormat( imageFormat );
              textureResource.SetExternal( FALSE );
              textureResource.SetPath( texturePath );
