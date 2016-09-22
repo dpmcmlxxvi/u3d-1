@@ -116,6 +116,13 @@ IFXRESULT SceneUtilities::InitializeScene( U32 profile, F64 scaleFactor )
 {
 	IFXRESULT result = IFX_OK;
 
+#include <iostream>
+#include <fstream>
+
+	std::ofstream outfile51 ("test_u3d_5_1.txt");
+	outfile51 << "scene_util_init" << std::endl;
+	outfile51.close();
+
 	if( m_bInit )
 	{
 		result = IFX_E_ALREADY_INITIALIZED;
