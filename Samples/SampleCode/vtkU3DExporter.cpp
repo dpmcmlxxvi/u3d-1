@@ -288,9 +288,7 @@ void vtkU3DExporter::WriteData() {
     //
     vtkDebugMacro("Writing U3D file");
 
-    IFXRESULT result = IFX_OK;
-
-    result = IFXSetDefaultLocale();
+    IFXRESULT result = IFXSetDefaultLocale();
     IFXTRACE_GENERIC(L"[Converter] IFXSetDefaultLocale %i\n", result);
 
     if (!IFXSUCCESS(result)) {
@@ -309,7 +307,7 @@ void vtkU3DExporter::WriteData() {
         ConverterOptions converterOptions;
         FileOptions fileOptions;
 
-        wchar_t *wU3DFileName = new wchar_t[mbstowcs(NULL, this->FileName, 32000) + 1 + 4];
+        wchar_t *wU3DFileName = new wchar_t[strlen(this->FileName) + 1 + 4];
         mbstowcs(wU3DFileName, this->FileName, 32000);
         wcsncat(wU3DFileName, L".u3d", 4);
         fileOptions.outFile = wU3DFileName;
@@ -322,7 +320,7 @@ void vtkU3DExporter::WriteData() {
 
         fileOptions.exportOptions = IFXExportOptions(65535);
         fileOptions.profile = 0;
-        fileOptions.scalingFactor = 1.0f;
+        fileOptions.scalingFactor = 1; //.0f;
         fileOptions.debugLevel = 1;
 
         converterOptions.positionQuality = 1000;
@@ -338,6 +336,7 @@ void vtkU3DExporter::WriteData() {
         converterOptions.zeroAreaFaceTolerance = 100.0f * FLT_EPSILON;
         converterOptions.excludeNormals = FALSE;
 
+        //THIS CRASHES HERE, FUNCTION NEVER GETS CALLED!! IFX_OK; ????
         SceneUtilities sceneUtils;
         result = sceneUtils.InitializeScene(fileOptions.profile, fileOptions.scalingFactor);
 
@@ -372,15 +371,35 @@ void vtkU3DExporter::WriteData() {
 
                 // Start write the Camera
                 {
+                    std::ofstream outfile61 ("test_u3d_61.txt");
+                    outfile61 << "start_ressource" << std::endl;
+                    outfile61.close();
                     {
                         ViewResourceList *pViewResources = static_cast< ViewResourceList * >( Resources.GetResourceList(
                                 IDTF_VIEW));
+
+
                         ViewResource defaultViewResource;
                         defaultViewResource.SetName(L"SceneViewResource");
+
+                        std::ofstream outfile611 ("test_u3d_611.txt");
+                        outfile611 << "start_ressource" << std::endl;
+                        outfile611.close();
+
+                        //Program received signal SIGSEGV, Segmentation fault.
+                        //IFXArray<IFXString>::Construct(unsigned int) ()
+
                         defaultViewResource.AddRootNode(L"");
+
+                        std::ofstream outfile612 ("test_u3d_612.txt");
+                        outfile612 << "start_ressource" << std::endl;
+                        outfile612.close();
+
                         pViewResources->AddResource(defaultViewResource);
                     }
-
+                    std::ofstream outfile62 ("test_u3d_62.txt");
+                    outfile62 << "start_camera" << std::endl;
+                    outfile62.close();
                     cam = ren->GetActiveCamera();
                     {
                         ViewNode View;
@@ -414,6 +433,11 @@ void vtkU3DExporter::WriteData() {
                         Parents.AddParentData(Parent);
                         View.SetParentList(Parents);
                         ViewNodeData ViewData;
+
+                        std::ofstream outfile63 ("test_u3d_63.txt");
+                        outfile63 << "after_view_data" << std::endl;
+                        outfile63.close();
+
                         ViewData.SetUnitType(IDTF_VIEW_UNIT_PIXEL);
                         ViewData.SetClipping(cam->GetClippingRange()[0], cam->GetClippingRange()[1]);
                         ViewData.SetViewPort(VIEW_PORT_WIDTH, VIEW_PORT_HEIGHT, VIEW_PORT_H_POSITION,
@@ -984,15 +1008,16 @@ void vtkU3DExporter::WriteData() {
                                             imageFormat.m_green = IDTF_TRUE;
                                             imageFormat.m_red = IDTF_TRUE;
 
+                                            std::ofstream outfile8("test_u3d_8.txt");
+                                            outfile8 << "before texture path" << std::endl;
+                                            outfile8.close();
+
                                             wchar_t texturePath[512];
                                             swprintf(texturePath, 511, L"%s_%ls.tga", this->FileName, textureName);
 
-#include <iostream>
-#include <fstream>
-
-                                            std::ofstream outfile("test_u3d.txt");
-                                            outfile << "after texture path" << std::endl;
-                                            outfile.close();
+                                            std::ofstream outfile9("test_u3d_9.txt");
+                                            outfile9 << "after texture path" << std::endl;
+                                            outfile9.close();
 
                                             textureResource.AddImageFormat(imageFormat);
                                             textureResource.SetExternal(FALSE);
