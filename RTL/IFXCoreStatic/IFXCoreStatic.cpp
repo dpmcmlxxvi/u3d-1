@@ -35,6 +35,9 @@
 #include "IFXPlugin.h"
 #include <stdlib.h>
 
+#include <iostream>
+#include <fstream>
+
 //***************************************************************************
 //  Defines
 //***************************************************************************
@@ -54,61 +57,50 @@
 //  Classes, structures and types
 //***************************************************************************
 
-class IFXCoreLib
-{
+class IFXCoreLib {
 public:
     IFXCoreLib() :
-        m_handle(0)
-    {
+            m_handle(0) {
     };
 
-    ~IFXCoreLib()
-    {
+    ~IFXCoreLib() {
         Unload();
     };
 
     // Load dynamic library
-    IFXRESULT Load()
-    {
+    IFXRESULT Load() {
         IFXRESULT result = IFX_OK;
 
-    if( NULL == m_handle )
-    {
-      m_handle = IFXLoadCoreLibrary();
+        if (NULL == m_handle) {
+            m_handle = IFXLoadCoreLibrary();
 
-      if( NULL == m_handle )
-      {
-        result = IFX_E_INVALID_HANDLE;
-      }
-    }
-    else
-      result = IFX_E_ALREADY_INITIALIZED;
+            if (NULL == m_handle) {
+                result = IFX_E_INVALID_HANDLE;
+            }
+        } else
+            result = IFX_E_ALREADY_INITIALIZED;
 
 
         return result;
     };
 
     // Unload dynamic library
-    IFXRESULT Unload()
-    {
+    IFXRESULT Unload() {
         IFXRESULT result = IFX_OK;
 
-        if( NULL != m_handle )
-        {
+        if (NULL != m_handle) {
             //Release the DLL if we get out of scope
             result = IFXReleaseLibrary(m_handle);
             m_handle = NULL;
-        }
-    else
-      result = IFX_E_INVALID_HANDLE;
+        } else
+            result = IFX_E_INVALID_HANDLE;
 
         return result;
     };
 
     //Get the functions address
-    IFXOSFUNC GetFuncPtr( const char* pFuncName ) const
-    {
-        return IFXGetAddress( m_handle, pFuncName );
+    IFXOSFUNC GetFuncPtr(const char *pFuncName) const {
+        return IFXGetAddress(m_handle, pFuncName);
     };
 
 private:
@@ -117,25 +109,36 @@ private:
 
 extern "C"
 {
-    typedef IFXRESULT ( IFXAPI IFXCOMInitializeFunction )();
-    typedef IFXRESULT ( IFXAPI IFXCOMUninitializeFunction )();
-    typedef IFXRESULT ( IFXAPI IFXCreateComponentFunction )(
-                            IFXREFCID componentId,
-                            IFXREFIID interfaceId,
-                            void**    ppInterface );
-    typedef IFXRESULT ( IFXAPI IFXRegisterComponentFunction )(
-                            IFXComponentDescriptor* pComponentDescriptor );
-    typedef IFXRESULT ( IFXAPI IFXGetMemoryFunctionsFunction )(
-              IFXAllocateFunction**   ppAllocateFunction,
-                            IFXDeallocateFunction** ppDeallocateFunction,
-                            IFXReallocateFunction** ppReallocateFunction );
-    typedef IFXRESULT ( IFXAPI IFXSetMemoryFunctionsFunction )(
-                            IFXAllocateFunction*    pAllocateFunction,
-                            IFXDeallocateFunction*  pDeallocateFunction,
-                            IFXReallocateFunction*  pReallocateFunction );
-    typedef void*     ( IFXAPI JFXAllocateFunction )( size_t byteCount );
-    typedef void      ( IFXAPI JFXDeallocateFunction )( void* pMemory );
-    typedef void*     ( IFXAPI JFXReallocateFunction )( void* pMemory, size_t byteCount );
+typedef IFXRESULT ( IFXAPI
+IFXCOMInitializeFunction ) ( ) ;
+typedef IFXRESULT ( IFXAPI
+IFXCOMUninitializeFunction ) ( ) ;
+typedef IFXRESULT ( IFXAPI
+IFXCreateComponentFunction ) (
+IFXREFCID componentId,
+        IFXREFIID
+interfaceId ,
+void **ppInterface ) ;
+typedef IFXRESULT ( IFXAPI
+IFXRegisterComponentFunction ) (
+IFXComponentDescriptor *pComponentDescriptor ) ;
+typedef IFXRESULT ( IFXAPI
+IFXGetMemoryFunctionsFunction ) (
+IFXAllocateFunction **ppAllocateFunction,
+        IFXDeallocateFunction * * ppDeallocateFunction ,
+IFXReallocateFunction **ppReallocateFunction ) ;
+typedef IFXRESULT ( IFXAPI
+IFXSetMemoryFunctionsFunction ) (
+IFXAllocateFunction *pAllocateFunction,
+        IFXDeallocateFunction * pDeallocateFunction ,
+IFXReallocateFunction *pReallocateFunction ) ;
+typedef void *( IFXAPI
+JFXAllocateFunction ) ( size_t byteCount ) ;
+typedef void      ( IFXAPI
+JFXDeallocateFunction ) ( void *pMemory ) ;
+typedef void *( IFXAPI
+JFXReallocateFunction ) ( void *pMemory, size_t
+byteCount ) ;
 }
 
 
@@ -146,13 +149,13 @@ extern "C"
 static IFXCoreLib s_coreLib;
 
 // functions from IFXCore, which can be used by client
-static IFXCOMInitializeFunction      *gs_pIFXCOMInitializeFunction      = NULL;
-static IFXCOMUninitializeFunction    *gs_pIFXCOMUninitializeFunction    = NULL;
-static IFXCreateComponentFunction    *gs_pIFXCreateComponentFunction    = NULL;
-static JFXAllocateFunction           *gs_pIFXAllocateFunction           = NULL;
-static JFXDeallocateFunction         *gs_pIFXDeallocateFunction         = NULL;
-static JFXReallocateFunction         *gs_pIFXReallocateFunction         = NULL;
-static IFXRegisterComponentFunction  *gs_pIFXRegisterComponentFunction  = NULL;
+static IFXCOMInitializeFunction *gs_pIFXCOMInitializeFunction = NULL;
+static IFXCOMUninitializeFunction *gs_pIFXCOMUninitializeFunction = NULL;
+static IFXCreateComponentFunction *gs_pIFXCreateComponentFunction = NULL;
+static JFXAllocateFunction *gs_pIFXAllocateFunction = NULL;
+static JFXDeallocateFunction *gs_pIFXDeallocateFunction = NULL;
+static JFXReallocateFunction *gs_pIFXReallocateFunction = NULL;
+static IFXRegisterComponentFunction *gs_pIFXRegisterComponentFunction = NULL;
 static IFXGetMemoryFunctionsFunction *gs_pIFXGetMemoryFunctionsFunction = NULL;
 static IFXSetMemoryFunctionsFunction *gs_pIFXSetMemoryFunctionsFunction = NULL;
 
@@ -163,157 +166,148 @@ static IFXSetMemoryFunctionsFunction *gs_pIFXSetMemoryFunctionsFunction = NULL;
 
 //---------------------------------------------------------------------------
 extern "C"
-IFXRESULT IFXAPI IFXCOMInitialize()
-{
+IFXRESULT IFXAPI
+
+IFXCOMInitialize() {
     IFXRESULT result = IFX_OK;
+
+    std::ofstream outfile01("test_ifxcom_1.txt");
+    outfile01 << "before_s_load" << std::endl;
+    outfile01.close();
 
     // load IFXCore
     result = s_coreLib.Load();
 
-    if( IFXSUCCESS( result ) )
-    {
-      // setup pointers to functions from IFXCore
+    std::ofstream outfile02("test_ifxcom_2.txt");
+    outfile02 << "after_s_load" << std::endl;
+    outfile02.close();
 
-        gs_pIFXCOMInitializeFunction =
-            ( IFXCOMInitializeFunction* ) s_coreLib.GetFuncPtr(
-                      "IFXCOMInitialize" );
-        if ( NULL == gs_pIFXCOMInitializeFunction )
+    if (IFXSUCCESS(result)) {
+        // setup pointers to functions from IFXCore
+        gs_pIFXCOMInitializeFunction = (IFXCOMInitializeFunction *) s_coreLib.GetFuncPtr("IFXCOMInitialize");
+        if (NULL == gs_pIFXCOMInitializeFunction)
             result = IFX_E_INVALID_POINTER;
 
-    if( IFXSUCCESS( result ) )
-    {
-      gs_pIFXCOMUninitializeFunction =
-        ( IFXCOMUninitializeFunction* ) s_coreLib.GetFuncPtr(
-                          "IFXCOMUninitialize" );
-      if ( NULL == gs_pIFXCOMUninitializeFunction )
-        result = IFX_E_INVALID_POINTER;
+        if (IFXSUCCESS(result)) {
+            gs_pIFXCOMUninitializeFunction = (IFXCOMUninitializeFunction *) s_coreLib.GetFuncPtr("IFXCOMUninitialize");
+            if (NULL == gs_pIFXCOMUninitializeFunction)
+                result = IFX_E_INVALID_POINTER;
+        }
+
+        if (IFXSUCCESS(result)) {
+            gs_pIFXCreateComponentFunction = (IFXCreateComponentFunction *) s_coreLib.GetFuncPtr("IFXCreateComponent");
+            if (NULL == gs_pIFXCreateComponentFunction)
+                result = IFX_E_INVALID_POINTER;
+        }
+
+        if (IFXSUCCESS(result)) {
+            gs_pIFXAllocateFunction = (JFXAllocateFunction *) s_coreLib.GetFuncPtr("IFXAllocate");
+            if (NULL == gs_pIFXAllocateFunction)
+                result = IFX_E_INVALID_POINTER;
+        }
+
+        if (IFXSUCCESS(result)) {
+            gs_pIFXDeallocateFunction = (JFXDeallocateFunction *) s_coreLib.GetFuncPtr("IFXDeallocate");
+            if (NULL == gs_pIFXDeallocateFunction)
+                result = IFX_E_INVALID_POINTER;
+        }
+
+        if (IFXSUCCESS(result)) {
+            gs_pIFXReallocateFunction = (JFXReallocateFunction *) s_coreLib.GetFuncPtr("IFXReallocate");
+            if (NULL == gs_pIFXReallocateFunction)
+                result = IFX_E_INVALID_POINTER;
+        }
+
+        if (IFXSUCCESS(result)) {
+            gs_pIFXRegisterComponentFunction = (IFXRegisterComponentFunction *) s_coreLib.GetFuncPtr("IFXRegisterComponent");
+            if (NULL == gs_pIFXRegisterComponentFunction)
+                result = IFX_E_INVALID_POINTER;
+        }
+
+        if (IFXSUCCESS(result)) {
+            gs_pIFXGetMemoryFunctionsFunction = (IFXGetMemoryFunctionsFunction *) s_coreLib.GetFuncPtr("IFXGetMemoryFunctions");
+            if (NULL == gs_pIFXGetMemoryFunctionsFunction)
+                result = IFX_E_INVALID_POINTER;
+        }
+
+        if (IFXSUCCESS(result)) {
+            gs_pIFXSetMemoryFunctionsFunction = (IFXSetMemoryFunctionsFunction *) s_coreLib.GetFuncPtr("IFXSetMemoryFunctions");
+            if (NULL == gs_pIFXSetMemoryFunctionsFunction)
+                result = IFX_E_INVALID_POINTER;
+        }
+
+        std::ofstream outfile03("test_ifxcom_3.txt");
+        outfile03 << "before_failure" << std::endl;
+        outfile03.close();
+
+        if (IFXFAILURE(result)) {
+            IFXASSERTBOX(0, "IFXCOMInitialize() failed. Cannot map functions from IFXCore.");
+        }
+    } else {
+        result = IFX_E_INVALID_FILE;
+        IFXASSERTBOX(0, "IFXCOMInitialize() failed. Cannot load IFXCore.");
     }
 
-    if( IFXSUCCESS( result ) )
-    {
-      gs_pIFXCreateComponentFunction =
-        ( IFXCreateComponentFunction* ) s_coreLib.GetFuncPtr(
-                          "IFXCreateComponent" );
-      if ( NULL == gs_pIFXCreateComponentFunction )
-        result = IFX_E_INVALID_POINTER;
-    }
+    if (IFXSUCCESS(result)) {
 
-    if( IFXSUCCESS( result ) )
-    {
-      gs_pIFXAllocateFunction =
-        ( JFXAllocateFunction* ) s_coreLib.GetFuncPtr( "IFXAllocate" );
-      if ( NULL == gs_pIFXAllocateFunction )
-        result = IFX_E_INVALID_POINTER;
-    }
+        std::ofstream outfile04("test_ifxcom_4.txt");
+        outfile04 << "before success 2" << std::endl;
+        outfile04.close();
 
-    if( IFXSUCCESS( result ) )
-    {
-      gs_pIFXDeallocateFunction =
-        ( JFXDeallocateFunction* ) s_coreLib.GetFuncPtr( "IFXDeallocate" );
-      if ( NULL == gs_pIFXDeallocateFunction )
-        result = IFX_E_INVALID_POINTER;
-    }
-
-    if( IFXSUCCESS( result ) )
-    {
-      gs_pIFXReallocateFunction =
-        ( JFXReallocateFunction* ) s_coreLib.GetFuncPtr( "IFXReallocate" );
-      if ( NULL == gs_pIFXReallocateFunction )
-        result = IFX_E_INVALID_POINTER;
-    }
-
-    if( IFXSUCCESS( result ) )
-    {
-      gs_pIFXRegisterComponentFunction =
-        ( IFXRegisterComponentFunction* ) s_coreLib.GetFuncPtr(
-                          "IFXRegisterComponent" );
-      if ( NULL == gs_pIFXRegisterComponentFunction )
-        result = IFX_E_INVALID_POINTER;
-    }
-
-    if( IFXSUCCESS( result ) )
-    {
-      gs_pIFXGetMemoryFunctionsFunction =
-        ( IFXGetMemoryFunctionsFunction* ) s_coreLib.GetFuncPtr(
-                          "IFXGetMemoryFunctions" );
-      if ( NULL == gs_pIFXGetMemoryFunctionsFunction )
-        result = IFX_E_INVALID_POINTER;
-    }
-
-    if( IFXSUCCESS( result ) )
-    {
-      gs_pIFXSetMemoryFunctionsFunction =
-        ( IFXSetMemoryFunctionsFunction* ) s_coreLib.GetFuncPtr(
-                          "IFXSetMemoryFunctions" );
-      if ( NULL == gs_pIFXSetMemoryFunctionsFunction )
-        result = IFX_E_INVALID_POINTER;
-    }
-
-    if( IFXFAILURE( result ) )
-    {
-      IFXASSERTBOX(0,"IFXCOMInitialize() failed. Cannot map functions from IFXCore.");
-    }
-    }
-  else
-  {
-    result = IFX_E_INVALID_FILE;
-    IFXASSERTBOX(0,"IFXCOMInitialize() failed. Cannot load IFXCore.");
-  }
-
-    if( IFXSUCCESS( result ) )
-    {
         // call actual initialization function from IFXCore
         result = gs_pIFXCOMInitializeFunction();
-    }
-    else
-    {
+        if (!IFXSUCCESS(result)) {
+            std::ofstream outfile05("test_ifxcom_5.txt");
+            outfile05 << "after success 2 - failed" << std::endl;
+            outfile05.close();
+//            result = IFX_E_INVALID_FILE;
+//            IFXASSERTBOX(0, "IFXCOMInitialize() failed. Cannot load IFXCore.");
+        }
+    } else {
         // in case of any failure this function should
         // undo the work previously performed
-
-        gs_pIFXCOMInitializeFunction      = NULL;
-        gs_pIFXCOMUninitializeFunction    = NULL;
-        gs_pIFXCreateComponentFunction    = NULL;
-        gs_pIFXAllocateFunction           = NULL;
-        gs_pIFXDeallocateFunction         = NULL;
-        gs_pIFXReallocateFunction         = NULL;
-        gs_pIFXRegisterComponentFunction  = NULL;
+        gs_pIFXCOMInitializeFunction = NULL;
+        gs_pIFXCOMUninitializeFunction = NULL;
+        gs_pIFXCreateComponentFunction = NULL;
+        gs_pIFXAllocateFunction = NULL;
+        gs_pIFXDeallocateFunction = NULL;
+        gs_pIFXReallocateFunction = NULL;
+        gs_pIFXRegisterComponentFunction = NULL;
         gs_pIFXGetMemoryFunctionsFunction = NULL;
         gs_pIFXSetMemoryFunctionsFunction = NULL;
-
         s_coreLib.Unload();
     }
-
+    std::ofstream outfile06("test_ifxcom_6.txt");
+    outfile06 << "return of result" << std::endl;
+    outfile06.close();
     return result;
 }
 
 //---------------------------------------------------------------------------
 extern "C"
-IFXRESULT IFXAPI IFXCOMUninitialize()
-{
+IFXRESULT IFXAPI
+
+IFXCOMUninitialize() {
     IFXRESULT result = IFX_OK;
 
-    if( NULL != gs_pIFXCOMUninitializeFunction )
-    {
+    if (NULL != gs_pIFXCOMUninitializeFunction) {
         // call actual IFXCOMUninitialize function from IFXCore
         result = gs_pIFXCOMUninitializeFunction();
-    }
-    else
-    {
+    } else {
         // IFXCOMInitialize should be called before
         result = IFX_E_NOT_INITIALIZED;
     }
 
     // if real IFXCOMUninitialize function returns IFX_W_CANNOT_UNLOAD this
     // function cannot revert to the initial state
-    if( IFXSUCCESS( result ) && result != IFX_W_CANNOT_UNLOAD )
-    {
-        gs_pIFXCOMInitializeFunction      = NULL;
-        gs_pIFXCOMUninitializeFunction    = NULL;
-        gs_pIFXCreateComponentFunction    = NULL;
-        gs_pIFXAllocateFunction           = NULL;
-        gs_pIFXDeallocateFunction         = NULL;
-        gs_pIFXReallocateFunction         = NULL;
-        gs_pIFXRegisterComponentFunction  = NULL;
+    if (IFXSUCCESS(result) && result != IFX_W_CANNOT_UNLOAD) {
+        gs_pIFXCOMInitializeFunction = NULL;
+        gs_pIFXCOMUninitializeFunction = NULL;
+        gs_pIFXCreateComponentFunction = NULL;
+        gs_pIFXAllocateFunction = NULL;
+        gs_pIFXDeallocateFunction = NULL;
+        gs_pIFXReallocateFunction = NULL;
+        gs_pIFXRegisterComponentFunction = NULL;
         gs_pIFXGetMemoryFunctionsFunction = NULL;
         gs_pIFXSetMemoryFunctionsFunction = NULL;
 
@@ -325,135 +319,153 @@ IFXRESULT IFXAPI IFXCOMUninitialize()
 
 //---------------------------------------------------------------------------
 extern "C"
-IFXRESULT IFXAPI IFXCreateComponent(
-                    IFXREFCID componentId,
-                    IFXREFIID interfaceId,
-                    void**        ppInterface )
+IFXRESULT IFXAPI
+IFXCreateComponent(
+        IFXREFCID
+componentId,
+IFXREFIID interfaceId,
+void **ppInterface
+)
 {
-    IFXRESULT result = IFX_OK;
+IFXRESULT result = IFX_OK;
 
-    IFXASSERT( gs_pIFXCreateComponentFunction );
-    if( NULL != gs_pIFXCreateComponentFunction )
-    {
-    // call actual IFXCreateComponent function from IFXCore
-    result = gs_pIFXCreateComponentFunction(
-                componentId,
-                interfaceId,
-                ppInterface );
-  }
-  else
-    result = IFX_E_NOT_INITIALIZED;
+IFXASSERT( gs_pIFXCreateComponentFunction );
+if( NULL != gs_pIFXCreateComponentFunction )
+{
+// call actual IFXCreateComponent function from IFXCore
+result = gs_pIFXCreateComponentFunction(
+        componentId,
+        interfaceId,
+        ppInterface);
+}
+else
+result = IFX_E_NOT_INITIALIZED;
 
-  return result;
+return
+result;
 }
 
 //---------------------------------------------------------------------------
 extern "C"
-IFXRESULT IFXAPI IFXRegisterComponent(
-                    IFXComponentDescriptor* pComponentDescriptor )
+IFXRESULT IFXAPI
+IFXRegisterComponent(
+        IFXComponentDescriptor
+* pComponentDescriptor )
 {
-    IFXRESULT result = IFX_OK;
+IFXRESULT result = IFX_OK;
 
-    IFXASSERT( gs_pIFXRegisterComponentFunction );
-  if( NULL != gs_pIFXRegisterComponentFunction )
-  {
-    // call actual IFXCreateComponent function from IFXCore
-    result = gs_pIFXRegisterComponentFunction( pComponentDescriptor );
-  }
-  else
-    result = IFX_E_NOT_INITIALIZED;
+IFXASSERT( gs_pIFXRegisterComponentFunction );
+if( NULL != gs_pIFXRegisterComponentFunction )
+{
+// call actual IFXCreateComponent function from IFXCore
+result = gs_pIFXRegisterComponentFunction(pComponentDescriptor);
+}
+else
+result = IFX_E_NOT_INITIALIZED;
 
-  return result;
+return
+result;
 }
 
 //---------------------------------------------------------------------------
 extern "C"
-void* IFXAPI IFXAllocate( size_t byteCount )
+void *IFXAPI
+IFXAllocate( size_t
+byteCount )
 {
-  void* result = NULL;
+void *result = NULL;
 
-    IFXASSERT( gs_pIFXAllocateFunction );
-  if( NULL != gs_pIFXAllocateFunction )
-  {
-    // Call actual IFXAllocate function from IFXCore.
-    result = gs_pIFXAllocateFunction( byteCount );
-  }
+IFXASSERT( gs_pIFXAllocateFunction );
+if( NULL != gs_pIFXAllocateFunction )
+{
+// Call actual IFXAllocate function from IFXCore.
+result = gs_pIFXAllocateFunction(byteCount);
+}
 
-  return result;
+return
+result;
 }
 
 //---------------------------------------------------------------------------
 extern "C"
-void IFXAPI IFXDeallocate( void* pMemory )
-{
-    IFXASSERT( gs_pIFXDeallocateFunction );
-  if( NULL != gs_pIFXDeallocateFunction )
-  {
-    // Call actual IFXDeallocate function from IFXCore.
-    gs_pIFXDeallocateFunction( pMemory );
-  }
+void IFXAPI
+
+IFXDeallocate(void *pMemory) {
+    IFXASSERT(gs_pIFXDeallocateFunction);
+    if (NULL != gs_pIFXDeallocateFunction) {
+        // Call actual IFXDeallocate function from IFXCore.
+        gs_pIFXDeallocateFunction(pMemory);
+    }
 }
 
 //---------------------------------------------------------------------------
 extern "C"
-void* IFXAPI IFXReallocate( void* pMemory, size_t byteCount )
-{
-  void* result = NULL;
+void *IFXAPI
 
-    IFXASSERT( gs_pIFXReallocateFunction );
-  if( NULL != gs_pIFXReallocateFunction )
-  {
-    // Call actual IFXReallocate function from IFXCore.
-    result = gs_pIFXReallocateFunction( pMemory, byteCount );
-  }
+IFXReallocate(void *pMemory, size_t byteCount) {
+    void *result = NULL;
 
-  return result;
+    IFXASSERT(gs_pIFXReallocateFunction);
+    if (NULL != gs_pIFXReallocateFunction) {
+        // Call actual IFXReallocate function from IFXCore.
+        result = gs_pIFXReallocateFunction(pMemory, byteCount);
+    }
+
+    return result;
 }
 
 //---------------------------------------------------------------------------
 extern "C"
-IFXRESULT IFXAPI IFXGetMemoryFunctions(
-                    IFXAllocateFunction** ppAllocateFunction,
-                    IFXDeallocateFunction** ppDeallocateFunction,
-                    IFXReallocateFunction** ppReallocateFunction )
+IFXRESULT IFXAPI
+IFXGetMemoryFunctions(
+        IFXAllocateFunction
+** ppAllocateFunction,
+IFXDeallocateFunction **ppDeallocateFunction,
+        IFXReallocateFunction
+** ppReallocateFunction )
 {
-    IFXRESULT result = IFX_OK;
+IFXRESULT result = IFX_OK;
 
-    IFXASSERT( gs_pIFXGetMemoryFunctionsFunction );
-  if( NULL != gs_pIFXGetMemoryFunctionsFunction )
-  {
-    // call actual IFXGetMemoryFunctions function from IFXCore
-    result = gs_pIFXGetMemoryFunctionsFunction(
-          ppAllocateFunction,
-          ppDeallocateFunction,
-          ppReallocateFunction );
-  }
-  else
-    result = IFX_E_NOT_INITIALIZED;
+IFXASSERT( gs_pIFXGetMemoryFunctionsFunction );
+if( NULL != gs_pIFXGetMemoryFunctionsFunction )
+{
+// call actual IFXGetMemoryFunctions function from IFXCore
+result = gs_pIFXGetMemoryFunctionsFunction(
+        ppAllocateFunction,
+        ppDeallocateFunction,
+        ppReallocateFunction);
+}
+else
+result = IFX_E_NOT_INITIALIZED;
 
-  return result;
+return
+result;
 }
 
 //---------------------------------------------------------------------------
 extern "C"
-IFXRESULT IFXAPI IFXSetMemoryFunctions(
-                    IFXAllocateFunction*    pAllocateFunction,
-                    IFXDeallocateFunction*    pDeallocateFunction,
-                    IFXReallocateFunction*    pReallocateFunction )
+IFXRESULT IFXAPI
+IFXSetMemoryFunctions(
+        IFXAllocateFunction
+*    pAllocateFunction,
+IFXDeallocateFunction *pDeallocateFunction,
+        IFXReallocateFunction
+*    pReallocateFunction )
 {
-    IFXRESULT result = IFX_OK;
+IFXRESULT result = IFX_OK;
 
-    IFXASSERT( gs_pIFXSetMemoryFunctionsFunction );
-  if( NULL != gs_pIFXSetMemoryFunctionsFunction )
-  {
-    // call actual IFXSetMemoryFunctions function from IFXCore
-    result = gs_pIFXSetMemoryFunctionsFunction(
-          pAllocateFunction,
-          pDeallocateFunction,
-          pReallocateFunction );
-  }
-  else
-    result = IFX_E_NOT_INITIALIZED;
+IFXASSERT( gs_pIFXSetMemoryFunctionsFunction );
+if( NULL != gs_pIFXSetMemoryFunctionsFunction )
+{
+// call actual IFXSetMemoryFunctions function from IFXCore
+result = gs_pIFXSetMemoryFunctionsFunction(
+        pAllocateFunction,
+        pDeallocateFunction,
+        pReallocateFunction);
+}
+else
+result = IFX_E_NOT_INITIALIZED;
 
-  return result;
+return
+result;
 }
